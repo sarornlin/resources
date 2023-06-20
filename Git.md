@@ -1,4 +1,5 @@
-#Introduction
+# Introduction
+
 This document will cover different Git commands, common practices, and recommendations on how to write Git messages.
 
 When writing your message, start off with:
@@ -7,7 +8,7 @@ When writing your message, start off with:
 
 ---
 
-#Opening Pull Request
+# Opening Pull Request
 
 ```bash
 #Be on your branch
@@ -40,11 +41,11 @@ git push origin HEAD
 
 ---
 
-#Making Git Commit Messages
+# Making Git Commit Messages
 
-##Guidelines
+## Guidelines
 
-###Ask Yourself:
+### Ask Yourself:
 
 Think of the What's and Why's:
 
@@ -65,7 +66,7 @@ git commit -m 'Add margin to nav items to prevent them from overlapping the logo
 
 The title is like a news article headline. Sum up what happened and what is important. Then write further details in body in an organized fashion.
 
-###DO
+### DO
 
 -   **Commit often** to make checkpoints along the code to go back to if needed.
 -   **Write in imperative:** "Fix bug" and not "Fixed bugs" or "Fixes bug". Imperative mood gives the tone you are giving an order or request.
@@ -75,7 +76,7 @@ The title is like a news article headline. Sum up what happened and what is impo
 -   Does not need to explain everything in detail
 -   First line < 50 characters, body < 72 characters
 
-###DO NOT
+### DO NOT
 
 -   End the subject line with a period
 
@@ -83,13 +84,13 @@ The title is like a news article headline. Sum up what happened and what is impo
 
 -   Assume that the code is self-evident/self-documenting
 
-##Commit Subject Line
+## Commit Subject Line
 
 A properly formed subject line should always complete the following sentence:
 
 > If applied, this commit will \<_your subject line here_>
 
-##Example for commit message
+## Example for commit message
 
 ```
 Add CPU arch filter for scheduler support
@@ -106,20 +107,21 @@ If applied, this commit will...
 ...Refactor ConnectedAccount.jsx by removing excess comments
 ```
 
-##Anatomy
-###Basic
+## Anatomy
+
+### Basic
 
 ```bash
 git commit -m <message>
 ```
 
-###Detailed
+### Detailed
 
 ```bash
 git commit -m <title> -m <description>
 ```
 
-##Commit Verbs
+## Commit Verbs
 
 -   Add: create a capability e.g. feature, test, dependency
 -   Remove: remove a capability
@@ -137,7 +139,7 @@ git commit -m <title> -m <description>
 
 ---
 
-#Sources
+# Sources
 
 [Githut Robertpainsi: Commit Message Guidelines](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
 
