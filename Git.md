@@ -4,7 +4,7 @@ This document will cover different Git commands, common practices, and recommend
 
 When writing your message, start off with:
 
-**==If applied, this commit will... _\<commit subject>_==**
+==**If applied, this commit will... _\<commit subject>_**==
 
 ---
 
